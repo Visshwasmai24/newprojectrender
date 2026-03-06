@@ -19,7 +19,7 @@ function Reg()
       {
         //  const res=await axios.post("http://localhost:8080/reg",data)
         const res = await axios.post(
-        "https://tt-3u4n.onrender.com",
+        "https://tt-3u4n.onrender.com/reg",
         data
       )
          alert(res.data)
